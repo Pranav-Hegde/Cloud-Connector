@@ -1,0 +1,55 @@
+Back-end Assignment: Build a GitHub Cloud Connector
+Objective
+Build a simple cloud connector to GitHub that demonstrates your ability to:
+Integrate with external APIs
+Handle authentication
+Expose usable actions/endpoints
+Write clean, structured code
+
+Task Overview
+You are required to build a GitHub Connector that can authenticate with GitHub and perform at least one meaningful API action.
+
+Core Requirements
+🔹 1. Authentication
+Implement authentication using:
+Personal Access Token (PAT) (simplest and acceptable)
+OR
+OAuth 2.0 (bonus)
+Ensure the token is handled securely (no hardcoding in code)
+
+🔹 2. API Integration (Mandatory)
+Implement at least one of the following actions:
+Fetch repositories for a user/org
+Create an issue in a repository
+List issues from a repository
+Create a pull request (bonus)
+Fetch commits from a repository
+👉 Must demonstrate a real API call to GitHub
+
+🔹 3. Interface (Choose One)
+You can expose your connector via:
+REST API (preferred)
+Example endpoints:
+/repos
+/create-issue
+/list-issues
+
+🔹 4. Tech Stack
+You are free to choose, but suggested:
+Backend: Dot Net / Python
+Framework: Asp.NET / FastAPI
+
+🔹 5. Code Quality
+We will evaluate:
+Code structure and modularity
+Error handling (API failures, invalid inputs)
+Readability and naming conventions
+
+Deliverables
+Please submit:
+Source Code (GitHub repo preferred)
+README.md with:
+Setup instructions
+How to run the project
+API endpoints (if applicable)
+Short Demo Video (2–3 mins) (optional but recommended)
